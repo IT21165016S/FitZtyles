@@ -21,4 +21,4 @@ This app consists of two parts. Java + Spring boot as backend and React as front
 
 We have to develop a social media platform for Fitness enthusiasts to share their fitness journey, workout, and healthy lifestyle tips. Users of this platform will be able to make account, follow other users, share pictures and videos etc. The goal is to create this platform where their experience of unhealthy life and fitness tips.
 
-#### Do not include any personal details or full code snippets. You can review the code and extract ideas where necessary.
+#### Do not include any personal details or full code snippets. You can review the code and extract ideas where necessary.(university assignment)
