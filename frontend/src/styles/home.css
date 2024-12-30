@@ -1,0 +1,57 @@
+/*profile css*/
+.Profileee--container {
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  margin-bottom: auto;
+  background-color: #cce0ee;
+  padding: 30px;
+}
+
+.profile-button {
+  background-color: blue;
+  color: white;
+  margin-right: 5px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #090647;
+  font-weight: bold;
+  padding: 20px 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #faf8f8;
+  border-bottom: none; /* Remove bottom border for tabs */
+  border-radius: 5px 5px 0 0; /* Add rounded corners to top */
+  cursor: pointer;
+}
+.profile-button:hover {
+  background-color: rgb(173, 172, 176);
+}
+
+:link {
+  text-decoration: none;
+  color: #090647;
+}
+
+.card-body-Profile {
+  flex: 1;
+  margin-top: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(239, 244, 245, 0.7) 35%,
+    rgba(251, 251, 251, 0.1) 100%
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}

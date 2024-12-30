@@ -1,0 +1,141 @@
+/* card container */
+/* .background-container-1 {
+  background-image: url(../assets/background-blue2.jpeg);
+  background-size: cover;
+} */
+.card--container-1 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  margin-bottom: auto;
+}
+.card-1 {
+  flex: 1;
+  margin-top: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(239, 244, 245, 0.7) 35%,
+    rgba(251, 251, 251, 0.1) 100%
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}
+.card-1:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.card--cover-1 {
+  border-radius: 2000px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  
+}
+.card--title-1 {
+  width: 70%;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  border-color: #f8f2f2;
+  color: #000000;
+ 
+}
+.card--title-1 :hover {
+  color: #e70e0e;
+  cursor: pointer;
+  border-radius: 100px;
+  text-decoration: none;
+  
+}
+
+/*Resipe post css*/
+.container-recipepost {
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  margin-bottom: auto;
+  background-color: #2f6790;
+  padding: 30px;
+}
+.card-body-recipee {
+  flex: 1;
+  margin-top: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(239, 244, 245, 0.7) 35%,
+    rgba(251, 251, 251, 0.1) 100%
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}
+h1 {
+  color: #000000;
+  font-size: 40px;
+}
+.form-label {
+  color: #000000;
+}
+
+input,
+textarea,
+select {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #000000;
+}
+
+.form-title {
+  color: #000000;
+  display: flex;
+}
+
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+input[type="file"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+:link {
+  text-decoration: none;
+  color: #050118;
+}
